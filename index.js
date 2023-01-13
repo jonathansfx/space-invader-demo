@@ -13,7 +13,7 @@ background.src = "img/space.png";
 const enemyController = new EnemyController(canvas);
 
 function game() {
-    ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
+  ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
 }
 
-setInterval(game,1000/60);
+setInterval(game, 1000 / 60);
